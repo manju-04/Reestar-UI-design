@@ -1,0 +1,67 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.header{
+    text-align: center;
+}
+
+.cards{
+    text-align: center;
+}
+.header, .footer{
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+
+.header p{
+    color: gray;
+}
+.cards-sec1, .cards-sec2, .cards-sec3, .cards-sec4{
+    width: 200px;
+    display: inline-block;
+    border-top: 2px;
+    border-right: 2px;
+    border-left: 2px;
+    border-bottom: 2px;
+    border-style: solid;
+    vertical-align: top;
+}
+
+.cards-sec1 a, .cards-sec2 a, .cards-sec3 a, .cards-sec4 a{
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    display: inline;
+    padding: 2px;
+}
+
+.footer a{
+    text-decoration: none;
+    color: black;
+    background-color: yellow;
+    display: inline-block;
+    height: 20px;
+    width: 350px;
+    padding-top: 5px;
+}
+
+.cards{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.footer-form{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.footer{
+    text-align: center;
+}
+
+.footer table{
+    display: inline-block;
+}
